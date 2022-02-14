@@ -1,3 +1,4 @@
+//importing identifiers from node modules
 import React, { useState,useEffect } from "react";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 // import info, { getting } from './DataAccess'
@@ -38,8 +39,8 @@ const List=()=>{
 
     return(
         <>
-   
         
+        {/* listing fastTag details */}
             <div className="row justify-content-center">
                 <div className="col-lg-8 col-md-10 col-sm-12 table-responsive">
                     <table className="table table-stripped table-hover shodow text-light bg-primary">
